@@ -1,0 +1,67 @@
+body {
+    background-color: #373b69;
+    margin: 0;
+}
+
+header h1 {
+     color: #111; 
+     font-family: 'Helvetica Neue', sans-serif; 
+     font-size: 75px; 
+     font-weight: bold; 
+     letter-spacing: -1px; 
+     line-height: 1; 
+     text-align: center; 
+}
+
+#title {
+    color: navajowhite;
+}
+
+#overview {
+    color: navajowhite;
+}
+
+#vote-average {
+    color: navajowhite;
+}
+
+#button {
+    text-align: center;
+}
+
+.card-button {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+
+
+.btn {
+    border:none;
+    background-color: rgba(194, 46, 26, 0.678);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+    color: hsl(0, 0%, 100%);
+    display:flex;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center; 
+    align-items: center;
+    cursor: pointer;
+  }
+
+  @media (max-width: 690px) {
+    .btn {
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
+    }
+  }
+    @media (max-width: 500px) {
+        .btn {
+          font-size: 0.8rem;
+        }
+    }

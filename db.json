@@ -1,0 +1,36 @@
+{
+  "snacks": [
+    {
+      "name": "Fruity Candies",
+      "image": "./src/Fruity Candies.png"
+    },
+    {
+      "name": "Chocolat Candies",
+      "image": "./src/Chocolat Candies.png"
+    },
+    {
+      "name": "Nachos",
+      "image": "./src/Nachos.png"
+    },
+    {
+      "name": "Popcorn",
+      "image": "./src/popcorn.png"
+    },
+    {
+      "name": "Chips",
+      "image": "./src/Chips.png"
+    },
+    {
+      "name": "Ice Cream",
+      "image": "./src/ice cream.png"
+    },
+    {
+      "name": "Pizza",
+      "image": "./src/pizza.png"
+    },
+    {
+      "name": "Cookies",
+      "image": "./src/cookies.png"
+    }
+  ]
+}
