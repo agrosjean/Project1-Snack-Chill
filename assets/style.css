@@ -1,6 +1,7 @@
 body {
     background-color: #373b69;
     margin: 0;
+    text-align: center;
 }
 
 header h1 {
@@ -13,21 +14,15 @@ header h1 {
      text-align: center; 
 }
 
-#title {
-    color: navajowhite;
-}
-
-#overview {
-    color: navajowhite;
-}
-
-#vote-average {
-    color: navajowhite;
+p { 
+  color:navajowhite
 }
 
 #button {
     text-align: center;
+    margin: 0 auto;
 }
+
 
 .card-button {
     align-items: center;
