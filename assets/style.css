@@ -18,9 +18,67 @@ p {
   color:navajowhite
 }
 
+img {
+  width: 500px;
+  height: 281px;
+}
+
+#title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:indianred;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-weight: 800;
+  font-style: italic;
+  -webkit-text-stroke-color: white;
+    white-space: nowrap;
+}
+
+#name {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:indianred;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-weight: 800;
+  font-style: italic;
+  -webkit-text-stroke-color: white;
+    white-space: nowrap;
+}
+
 #button {
     text-align: center;
     margin: 0 auto;
+}
+
+#movie-display {
+  flex: 1 1 21rem;
+  margin: 50px 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#overview {
+  padding: 1rem;
+  max-height: 100%;
+  color: burlywood;
+}
+
+#vote-average {
+  background:mediumslateblue;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+#snack-display {
+  flex: 1 1 21rem;
+  margin: 100px 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#list-comment {
+  color: bisque;
 }
 
 
@@ -30,7 +88,18 @@ p {
     position: relative;
 }
 
+.container {
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: none;
+}
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .btn {
     border:none;

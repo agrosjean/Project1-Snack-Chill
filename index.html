@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <script defer src="./assets/index.js"></script>
     <title>Snack & Chill</title>
 </head>
 
@@ -25,25 +24,31 @@
 
 
     <!-- Container for Movie & Snack display -->
-    <div id="movie-display">
-        <img>
-        <p id="title"></p>
-        <p id="overview"></p>
-        <p id="vote-average"></p>
+    <div class="container">
+        <div class='row'>
+            <div id="movie-display">
+                <p id="title"></p>
+                <img>
+                <p id="overview"></p>
+                <p id="vote-average"></p>
 
+            </div>
+            <div id="snack-display">
+                <p id="name"></p>
+                <img>
+            </div>
+        </div>
     </div>
-    <div id="snack-display">
-        <img>
-        <p id="name"></p>
-    </div>
-
     <!-- Decide if we re doing a Comments or Like Button ?? -->
 
-    <div id="comment"></div>
+    <div id="comment">
+        <h2 id="list-comment"></h2>
+    </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./assets/index.js"></script>
 
 </body>
 
