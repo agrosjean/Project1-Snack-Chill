@@ -1,7 +1,7 @@
 // Globabl varaibles
 // Button
 document.addEventListener('DOMContentLoaded', (event) => {
-    let bttn = document.getElementById('button')
+    let button = document.getElementById('button')
 
     let container = document.getElementsByClassName('container')[0]
 
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             .then(response => response.json())
             .then(movieArray => {
 
-                bttn.addEventListener('click', () => {
+                button.addEventListener('click', () => {
 
                     if (clickedGenerate == false) {
                         //Create the form...
