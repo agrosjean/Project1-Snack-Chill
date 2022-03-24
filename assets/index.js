@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             .then(response => response.json())
             .then(movieArray => {
 
-                button.addEventListener('click', () => {
+                buttostn.addEventListener('click', () => {
 
                     if (clickedGenerate == false) {
                         //Create the form...
